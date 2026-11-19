@@ -53,3 +53,24 @@ rsconnect/
 src/*.o
 src/*.so
 src/*.dll
+# Large sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Reference genome and alignment indexes
+*.fa
+*.fasta
+*.fai
+*.bt2
+*.bt2l
+
+# Temporary files
+*.tmp.*
+*.log
